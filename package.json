@@ -1,0 +1,27 @@
+{
+  "name": "with-reasonml",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:next": "next dev",
+    "dev:bsb": "bsb -clean-world -make-world -w",
+    "build": "bsb -clean-world -make-world && next build",
+    "start": "next start"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-bucklescript": "^0.2.4",
+    "bs-css": "^7.0.1",
+    "bs-next": "^2.0.0",
+    "bs-webapi": "^0.10.0",
+    "next": "^6.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-konva": "^1.7.6",
+    "reason-react": "^0.4.2"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.1.5",
+    "concurrently": "^3.5.1",
+    "webpack": "^3.8.1"
+  }
+}
